@@ -1,0 +1,21 @@
+.container {
+    min-height: 100vh;
+    padding: 32px;
+    background-color: var(--color-bg-primary);
+    color: white;
+}
+
+.header {
+    margin-bottom: 32px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.header p {
+    margin-top: 8px;
+    color: #9ca3af;
+}

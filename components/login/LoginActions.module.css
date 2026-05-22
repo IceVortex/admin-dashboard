@@ -1,0 +1,48 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.primaryBtn,
+.secondaryBtn,
+.submitBtn {
+    padding: 14px 28px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.primaryBtn {
+    background: #f9fafb;
+    color: #111827;
+}
+
+.primaryBtn:hover {
+    background: #e5e7eb;
+}
+
+.secondaryBtn {
+    background: transparent;
+    border: 1px solid #9ca3af;
+    color: #f9fafb;
+}
+
+.secondaryBtn:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.secondaryBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+    .actions {
+        flex-direction: column;
+        gap: 12px;
+    }
+}

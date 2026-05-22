@@ -1,0 +1,35 @@
+.editInput {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.editInput:focus {
+    border-color: #2563eb;
+    background-color: var(--color-bg-primary);
+}
+
+.deleteBtn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc2626;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.deleteBtn:hover {
+    background-color: #b91c1c;
+}
+
+.deleteBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #7f1d1d;
+}
